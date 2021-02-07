@@ -1,9 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700&display=swap");
 
-body {
+* {
     font-family: "Open Sans", sans-serif;
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e6e6e6;
 }
 .header {
     margin: 0 auto;
@@ -13,14 +18,17 @@ body {
         background-color: #2a6592;
     }
     &__logo {
-        width: 10rem;
+        margin: 1rem 0;
+        width: 6rem;
     }
     &__slider {
-        margin: 1rem auto;
-        width: 70rem;
+        padding: 2rem 4rem;
+        margin: 0 auto;
+        max-width: 70rem;
     }
     &__link {
-        margin: 1rem auto;
+        padding: 0 4rem;
+        margin: 0 auto;
         display: flex;
         justify-content: space-between;
         width: 70rem;
@@ -33,12 +41,71 @@ body {
 .item-nav {
     font-weight: normal;
     text-transform: uppercase;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: white;
     display: flex;
     align-items: center;
 
     &__a {
         text-decoration: none;
+    }
+}
+.container {
+    box-sizing: border-box;
+    padding: 2rem 4rem;
+    margin: 0 auto;
+    max-width: 70rem;
+}
+
+.button {
+    font-size: 1.5rem;
+    background-color: #2a6592;
+    border: none;
+    color: white;
+    padding: 1rem 2rem;
+    margin: 2rem 0 0 0;
+}
+
+.order {
+    &__body {
+        justify-content: space-between;
+        display: flex;
+        background-color: white;
+        padding: 2rem 4rem;
+    }
+    &__title {
+        font-size: 2rem;
+        margin: 1rem 0;
+    }
+    &__ico {
+        width: 13rem;
+    }
+}
+
+.category {
+    &__title {
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    &__body {
+        background-color: white;
+        padding: 2rem 4rem;
+    }
+    &__items {
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+}
+
+.item-category {
+    padding: 2rem;
+    &__ico {
+        padding: 0 0 1rem 0;
+    }
+    &__title {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 1rem;
     }
 }
