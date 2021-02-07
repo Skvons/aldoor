@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 22.1.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Слой_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 600 600" style="enable-background:new 0 0 600 600;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#2A6592;}
+	.st1{fill:#FFFFFF;stroke:#2A6592;stroke-width:7;stroke-miterlimit:10;}
+	.st2{fill:none;stroke:#2A6592;stroke-width:7;stroke-linecap:round;stroke-miterlimit:10;}
+	.st3{fill:#F9F9F9;stroke:#2A6592;stroke-width:7;stroke-miterlimit:10;}
+</style>
+<g>
+	<circle class="st0" cx="300" cy="300" r="300"/>
+</g>
+<path class="st1" d="M427.5,455.5h-255c-6.6,0-12-5.4-12-12v-327c0-3.3,1.4-6.3,3.5-8.5c3-3,7-3.4,8.5-3.5c8.2-0.8,93-0.8,208.6,0
+	c19.5,20,39,40,58.4,60c0,93,0,186,0,279C439.5,450.1,434.1,455.5,427.5,455.5z"/>
+<path class="st2" d="M256.8,209.5h-46c-6.6,0-12-5.4-12-12v-46c0-6.6,5.4-12,12-12h46c6.6,0,12,5.4,12,12v46
+	C268.8,204.1,263.4,209.5,256.8,209.5z"/>
+<line class="st2" x1="202" y1="244" x2="400" y2="244"/>
+<line class="st2" x1="398" y1="284" x2="202" y2="284"/>
+<line class="st2" x1="201" y1="325" x2="400" y2="325"/>
+<line class="st2" x1="201" y1="365" x2="400" y2="365"/>
+<line class="st2" x1="201" y1="406" x2="400" y2="406"/>
+<path class="st2" d="M417,438.7H182c-2.2,0-4-1.8-4-4V125c0-2.2,1.8-4,4-4h235c2.2,0,4,1.8,4,4v309.7
+	C421,436.9,419.2,438.7,417,438.7z"/>
+<path class="st3" d="M427.5,174.5h-48c-6.6,0-12-5.4-12-12v-48c0-6.6,5.4-12,12-12c20,20,40,40,60,60
+	C439.5,169.1,434.1,174.5,427.5,174.5z"/>
+</svg>
