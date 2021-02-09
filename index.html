@@ -7,7 +7,15 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 </head>
+<script>
+    subToggle = document.querySelector('#subToggle');
+    subMenu = document.querySelector('.submenu');
+    subToggle.onclick = () => {
+        subMenu.toggle();
+    }
+</script>
 
 <body>
     <header class="header">
@@ -16,34 +24,66 @@
                 <div class="header__logo">
                     <img src="img/Logo.svg" alt="">
                 </div>
-                <div class="item-nav">Мебель</div>
+                <div class="item-nav" id="subToggle">Мебель
+                </div>
                 <div class="item-nav">Дизайн</div>
                 <div class="item-nav">Заказ и оплата</div>
                 <div class="item-nav">Контакты</div>
                 <div class="item-nav">О нас</div>
             </div>
         </nav>
-        <div class="header__slider">
-            <img class="img-slider" src="img/slider_img/1.png" alt="">
+
+        <!-- <div class="header__img">
+            <img class="img-header" src="img/slider_img/1.jpg" alt="">
+        </div> -->
+        <div class="header__body">
+            <div class="header__submenu submenu">
+                <div class="submenu__body">
+                    <div class="submenu__item">Шкафы купе</div>
+                    <div class="submenu__item">Гардеробные</div>
+                    <div class="submenu__item">Гостинные</div>
+                    <div class="submenu__item">Перегородки</div>
+                    <div class="submenu__item">Прихожие</div>
+                    <div class="submenu__item">Спальни</div>
+                    <div class="submenu__item">Библеотеки</div>
+                    <div class="submenu__item">Другая мебель</div>
+                </div>
+            </div>
+            <div class="header__title">
+                Закажите расчёт прямо сейчас
+            </div>
+            <div class="header__subtitle">
+                Получите изготовление 3D проекта в подарок при заказе!
+            </div>
         </div>
     </header>
-    <section class="order">
+    <section class='information'>
         <div class="container">
-            <div class="order__body">
-                <div class="order__info">
-                    <div class="order__title">
-                        Закажите расчёт прямо сейчас
-                    </div>
-                    <div class="order__subtitle">
-                        Получите изготовление 3D проекта в подарок при заказе!
-                    </div>
-                    <div class="order__button">
-                        <button class="button">Заказать</button>
-                    </div>
+            <div class="information__body">
+                <div class="information__img">
+                    <img src="img/slider_img/2.jpg" alt="">
                 </div>
-
-                <div class="order__ico">
-                    <img src="img/ico/pen.svg" alt="">
+                <div class="information__text">
+                    <div class="information__title">
+                        Мебель на заказ
+                    </div>
+                    <div class="information__paragraph">
+                        Закажите встроенный шкаф и любую мебель по индивидуальному проекту
+                    </div>
+                    <div class="information__paragraph">
+                        Замер, проектировка, изготовление и установка шкафов и другой мебели в жилые помещения и
+                        офисы
+                        осуществляется только высококвалифицированными специалистами.
+                    </div>
+                    <div class="information__paragraph">
+                        Вся оригинальная мебелель имеет гарантию. Качество мебели проверено годами и тысячами
+                        покупателей.
+                    </div>
+                    <div class="information__paragraph">
+                        Изготовление шкафов на заказ производится в ориентировочные сроки от 30 дней, в зависимости
+                        от
+                        используемых материалов
+                    </div>
                 </div>
             </div>
         </div>
@@ -57,7 +97,7 @@
                 <div class="category__items">
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/kupe.svg" alt="">
+                            <img src="img/slider_img/2.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Шкафы купе
@@ -65,7 +105,7 @@
                     </div>
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/gard.svg" alt="">
+                            <img src="img/slider_img/7.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Гардеробные
@@ -73,7 +113,7 @@
                     </div>
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/gost.svg" alt="">
+                            <img src="img/slider_img/4.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Гостинные
@@ -81,7 +121,7 @@
                     </div>
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/pereg.svg" alt="">
+                            <img src="img/slider_img/2.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Перегородки
@@ -89,7 +129,7 @@
                     </div>
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/prih.svg" alt="">
+                            <img src="img/slider_img/2.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Прихожие
@@ -97,7 +137,7 @@
                     </div>
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/bad.svg" alt="">
+                            <img src="img/slider_img/6.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Спальни
@@ -105,7 +145,7 @@
                     </div>
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/bibl.svg" alt="">
+                            <img src="img/slider_img/5.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Библиотеки
@@ -113,7 +153,7 @@
                     </div>
                     <div class="item-category">
                         <div class="item-category__ico">
-                            <img src="img/furniture_ico/other.svg" alt="">
+                            <img src="img/slider_img/2.jpg" alt="">
                         </div>
                         <div class="item-category__title">
                             Другая мебель
@@ -123,9 +163,114 @@
             </div>
         </div>
     </section>
-    <section>
-
+    <section class='designers'>
+        <div class="container">
+            <div class="designers__body">
+                <div class="designers__title">
+                    Услуги дизайна
+                </div>
+                <div class="designers__subtitle">
+                    Наша Компания оказывает, весь спектр дизайнерских услуг:
+                </div>
+                <ol class="designers__list">
+                    <li class="designers__item">
+                        Полный дизайнерский проект с 3D-визуализацией
+                    </li>
+                    <li class="designers__item">
+                        Чертежи и подборка материалрв
+                    </li>
+                    <li class="designers__item">
+                        Предложения решения вариантов планировки
+                    </li>
+                    <li class="designers__item">
+                        Чертежный проект для реализации
+                    </li>
+                </ol>
+            </div>
+        </div>
     </section>
+    <section class="adress">
+        <div class="container">
+            <div class="adress__body">
+                <div class="adress__title">
+                    Где нас найти?
+                </div>
+                <div class="adress__map">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2585.3918381115423!2d37.44123488697462!3d55.884331252942474!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa1084c2d317aac54!2z0JPQoNCQ0J3QlA!5e0!3m2!1sru!2sru!4v1573113492492!5m2!1sru!2sru"
+                        width="100%" height="500px" frameborder="0" style="border:0;" allowfullscreen=""></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__body">
+                <div class="footer__logo">
+                    <img src="img/Logo.svg" alt="">
+                </div>
+                <div class="footer__list ">
+                    <ul class="list-footer">
+                        <li class="list-footer__li">
+                            Мебель
+                        </li>
+                        <li class="list-footer__li">
+                            Дизайн
+                        </li>
+                        <li class="list-footer__li">
+                            Заказ и оплата
+                        </li>
+                        <li class="list-footer__li">
+                            Контакты
+                        </li>
+                        <li class="list-footer__li">
+                            О нас
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__list ">
+                    <ul class="list-footer">
+                        <li class="list-footer__li">
+                            Шкафы купе
+                        </li>
+                        <li class="list-footer__li">
+                            Мебель для спальни
+                        </li>
+                        <li class="list-footer__li">
+                            Мебель для гостнной
+
+                        </li>
+                        <li class="list-footer__li">
+                            Мебель для гостнной
+                        </li>
+                        <li class="list-footer__li">
+                            Мебель для прихожей
+                        </li>
+                        <li class="list-footer__li">
+                            Межкомнатные перегородки
+                        </li>
+                        <li class="list-footer__li">
+                            Мебель для библиотеки
+                        </li>
+                    </ul>
+                </div>
+                <div class="footer__contacts contacts-footer">
+                    <div class="contacts-footer__time">
+                        ПН-ПТ с 10:00-20:00
+                    </div>
+                    <div class="contacts-footer__phone">
+                        +7 (495) 723-80-01 доб. 1262/1266
+                    </div>
+                    <div class="contacts-footer__place">
+                        Гранд, улица Бутаково, 4, Химки, Московская обл., 141407
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
 </body>
 
 </html>
