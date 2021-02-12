@@ -365,3 +365,46 @@ body {
   font-size: 3rem;
   text-align: center;
 }
+
+.order__body {
+  padding: 2rem 4rem;
+}
+
+.form-order {
+  font-size: 1.2rem;
+  background-color: white;
+  padding: 2rem 4rem;
+  margin: 0 auto;
+  width: 30rem;
+}
+
+.form-order__title {
+  font-size: 2rem;
+  margin: 0 0 2rem 0;
+}
+
+.form-order__item {
+  width: 100%;
+}
+
+.form-order__input {
+  width: 100%;
+}
+
+.form-order__text {
+  color: #757575;
+  height: 2rem;
+  border: none;
+  border-bottom: 3px solid #c6a38a;
+  padding: 1rem;
+  margin: 0 0 2rem 0;
+  width: 100%;
+}
+
+.form-order__text--tel {
+  border-bottom: none;
+}
+
+.form-order__name {
+  margin: 0 0 0.5rem 0;
+}
