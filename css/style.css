@@ -132,6 +132,12 @@ body {
   top: -5rem;
 }
 
+@media screen and (max-width: 850px) {
+  .submenu {
+    display: none;
+  }
+}
+
 .item-nav {
   padding: 0 3rem;
   font-weight: lighter;
@@ -204,6 +210,13 @@ body {
 
 @media screen and (max-width: 850px) {
   .category__items {
+    -ms-grid-columns: 1fr 1fr;
+        grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .category__items {
     -ms-grid-columns: 1fr;
         grid-template-columns: 1fr;
   }
@@ -250,7 +263,7 @@ body {
   display: flex;
 }
 
-@media screen and (max-width: 850px) {
+@media screen and (max-width: 500px) {
   .information__body {
     display: block;
   }
